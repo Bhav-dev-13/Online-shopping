@@ -1,0 +1,1108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+       
+}
+
+.section12{
+    border: 1px solid black;
+    height: 120vh;
+}
+.navbar{
+    background-color: white;
+    color:black;
+    padding: 2% 41%;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+
+
+
+
+
+.logo>h3 {
+  font-size: 3rem;
+  background-image: url(https://github.com/IsaacLouzeiro/My-Codepen-Database-Images/blob/master/bee-gif.gif?raw=true);
+  background-size: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   font-family: cursive; 
+ 
+}
+ 
+
+.nav2 >ul{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+
+}
+.nav2 ul li {
+    position: relative; /* Required for dropdown positioning */
+    display: flex;
+    justify-content: space-between;
+   
+  }
+.nav2 ul li a {
+    display: block;
+   
+    text-decoration: none;
+    color: black;
+ 
+  }
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%;/* Position below the parent */
+   left: 0;
+    background-color: #363636;
+   
+    min-width: 200px; /* Set dropdown width */
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-menu li {
+    width: 100%;
+    list-style: none;
+  }
+  .dropdown-menu li a {
+    padding: 10px 95px;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f84258;
+    color: white;
+   
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+.section2{
+    background-color: rgb(238, 237, 237);
+    color: black;
+    display: flex;
+    padding:3% 5%;
+    height: 120vh;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section2a{  
+    text-align: left;
+    font-family: 'sans-serif';
+    margin-top:10% ;
+}
+  .sec2b1{
+
+     background-image: url('https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/revslider/startup_slaider/5559331632_2_3_1.png');
+     background-repeat: no-repeat;
+    background-size: 80% 90%;
+    margin-left: -110%;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+ .sec2b1 {animation-timing-function: ease-in-out;
+   
+}
+@keyframes mymove {
+    from {left: 300px;}
+    to {right: 50px;}
+  } 
+
+ 
+h1{
+    color: #363636;
+    font-family: sans-serif;
+    font-size: 4.0em;
+    font-weight: 10;
+}
+.section2a>p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #858282;
+}
+img{
+    width: 60%;
+    padding-top: 7%;
+    height: 100vh;
+    margin-left: 13%;
+    
+}
+.section2a ,section2b{
+    flex-basis: 50%;
+}
+button{
+    padding: 16px 47px;
+    background-color: rgb(241, 87, 87);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 300;
+    border-color: transparent;
+    cursor: pointer;
+   border-radius: 2px;
+   width: 173px;
+   opacity: 1;
+}
+.button_slide {
+    color: #FFF;
+    
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(241, 87, 87);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #363636;
+    border: #363636;
+  }
+.icon{
+    width: 30px;
+    height: 10px;   
+}
+.icon:hover{
+    transform: scale(0.5);
+}
+.section3{
+    margin-top: 6%;
+    display: flex;
+   gap: 10px;
+    padding:3% 5%;
+   justify-content: space-evenly;
+}
+.para{
+        font-family: "Montserrat";
+        color: #363636;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    
+}
+.section4a>p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #858282;
+}
+.section4{
+    display: flex;
+    height: max-content;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.section4a,.section4b{
+    flex-basis: 50%;
+}
+
+.section4a{
+    background-color: rgb(241, 239, 239);
+   padding:13% 5%;
+   text-align: center;
+  
+}
+
+
+.section4b {
+    position: relative;
+    width: 120%; /* Full width of the container */
+    height: 100vh; /* Adjust height */
+    padding-top: 0%;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure no overflow of images */
+    padding: 0% 3%;
+    padding-right: -5px;
+    z-index: 1;
+}
+
+.image-container {
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
+  
+}
+
+.before-image, .after-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: clip-path 0.3s ease;
+    transform: scale(1.3,2.0);
+    
+}
+.before-image img, .after-image img {
+     width: 100%;
+    height: 100vh;
+    object-fit: contain; /* Ensure the images fill the container */
+   
+}
+.after-image {
+    clip-path: inset(0 50% 0 0); /* Initially show half of the after image */
+}
+
+.slider-handle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #f84258;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+
+} 
+.el1>p ,.el2>p,.el3>p{
+    color: #696868; 
+    font-weight: lighter;
+}
+.section5b{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 0% 3%;
+  
+
+   
+}
+.el1, .el2, .el3{
+    flex-basis: 39%;
+   
+}
+.el1>img,.el2>img,.el3>img{
+    height: 60vh;
+    padding-top: 8%;
+}
+.figure{
+    position: relative;
+     width: 430px;
+    max-width: 100%; 
+   
+}
+.figure img{
+    display: flex;
+    height: 53vh;
+    padding-top: 8%;
+    
+}
+.figure .image-hover{
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: opacity .8s;
+    height: 53vh;
+  
+     width: 73%;
+}
+.figure:hover .image-hover{
+     opacity: 2;
+     cursor: pointer;
+}
+.image-main{
+     width: 70%; 
+}
+hr{
+    width: 70%;
+    color: #f7f4f4;
+}
+.section6{
+    background-image: url("https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/Group-98.jpg?id=173");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 120vh;  
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.weeks>span{
+    font-size: 40px;
+    
+}
+.weeks>div{
+     color: #363636;
+}
+.but{
+    padding: 20px 50px;
+    background-color: rgb(241, 87, 87);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 300;
+    border-color: transparent;
+    cursor: pointer;
+   border-radius: 2px;
+   width: 450px;
+   opacity: 1;
+   text-decoration: none;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.but:hover{
+    box-shadow: inset 600px 0 0 0 #363636;
+    border: #363636;
+}
+.section7{
+    height: 140vh;
+}
+.section7b{
+    --d:6s;
+    display: grid;
+    overflow: hidden;
+    /* -webkit-mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000); */
+}
+    
+
+.section7b>img{
+    grid-area: 1/1;
+    height: auto;
+     aspect-ratio: 0.5;
+    object-fit: cover;
+    animation: r var(--d) linear infinite;
+    height: 45%;
+    width: 700px;
+    padding-top: 8%;
+}
+.section7b>:nth-child(2){
+    animation-delay: calc(1*var(--d)/-3)
+}
+.section7b>:nth-child(3){
+    animation-delay: calc(2*var(--d)/-3)
+}
+.section7b>:nth-child(4){
+    animation-delay: calc(3*var(--d)/-3)
+}
+
+
+
+@keyframes r {
+    75%{
+        transform: translate(-300%);
+    }
+    75.01%{
+        transform: translate(2%);
+    }
+
+}
+.new{
+    display: flex;
+    height: max-content;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+}
+.new{
+    display: flex;
+    height: max-content;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+    justify-content: center;
+   
+}
+.section7a,.section7c{
+    flex-basis: 50%;
+}
+.section7c{
+    background-color: rgb(241, 239, 239);
+   padding: 8% 5%;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 330px;
+   margin-top: -380px;
+}
+.dot1>p ,.dot2>p,.dot3>p,.dot4>p,.dot5>p,.dot6>p,.dot7>p,.dot8>p,.dot9>p,.dot10>p{
+    color: #696868; 
+    font-weight: lighter;
+}
+
+.section8{
+    padding-top: 0%;
+}
+.section8a{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+   padding-left: 3%; 
+    grid-template-columns: repeat(5,260px);
+    gap: -30%;
+    padding-top: 0;
+}
+
+.dot1>img,.dot2>img,.dot3>img,.dot4>img,.dot5>img,.dot6>img,.dot7>img,.dot8>img,.dot9>img,.dot10>img{
+    height: 5vh;
+    padding-top: 8%;
+}
+.figure1{
+    position: relative;
+   
+}
+.figure1 img{
+    display: flex;
+    height: 30vh;
+    padding-top: 8%;
+   
+    
+}
+.figure1 .image-hover1{
+    position: absolute;
+    object-fit: contain;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity .8s;
+    height: 65vh;
+    width: 69%;
+    margin-top: -41.5%;
+
+    
+    
+}
+.figure1:hover .image-hover1{
+     opacity: 2;
+     cursor: pointer;
+     
+}
+.image-main1{
+    width: 69%;
+   
+}
+
+.section9{
+    width: 200px;
+     padding: 5% 100%;
+    background-color:  rgb(241, 239, 239);
+    height: 30vh; 
+   display: flex;
+   flex-wrap: nowrap;
+    justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+  overflow: hidden;
+  animation: scroll-right-to-left 10s infinite ;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+ .section9 div{
+    flex:0 0 auto
+} 
+.section9:hover{
+    animation-play-state: paused;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.section9 div>img{
+    width: 150px;
+    height: auto;
+    display: block; 
+    
+}
+.section9::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+@keyframes scroll-right-to-left {
+    0%{
+        transform: translateX(0);/* Start from the original position */
+    }
+    100%{
+        transform: translateX(-50%);/* Move left by half the container width */
+    }
+}
+.section10{
+    background-image: url('https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/Rectangle-333-copy-2.jpg?id=180');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+   height: 150vh;
+   justify-content: center;
+   align-items: center;
+   transform: scale(1.5);
+   margin-top: 18%;
+   padding-top: 5%;
+  
+   
+ 
+   
+    
+}
+ .sec10 >h1{
+    font-family: 'Cormorant Garamond';
+    font-weight: 400 !important;
+    font-size: 48px;
+    color: #f9f9f9;
+    text-align: center;
+    justify-content: center;
+}
+.sec10 >h2{
+    font-weight: 300 !important;
+    font-size: 15px;
+    color: #d7d7d7;
+} 
+#email{
+    padding: 1.2% 7%;
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+}
+#email:hover{
+    text-decoration: none;
+    border: none;
+    margin: none;
+}
+placeholder{
+    font-size: 0.5px;
+}
+#spa{
+    padding: 1.2% 9.5%;
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #f84258;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section11{
+    margin-top: -43%;
+    background-color: rgb(241, 239, 239); ;
+}
+.sec11a{
+    background-color: rgb(241, 239, 239);
+    padding: 7% 10%;
+    text-align: center;
+    
+}
+.sec11b{
+    padding: 0 5%;
+}
+.on,.off{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+ .on img, .off img{
+    width: 100%;
+    height: 77vh;
+    margin-top: -7%;
+}
+
+.onee, .twoo, .oneee , .twooo{
+    flex-basis: 50%;
+   
+    
+}
+.twoo,.oneee{
+    background-color: white;
+    text-align: justify;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 72vh;
+    padding: 2% 3%;
+   
+}
+.oneee{
+    margin-left: 6.3%;
+}
+.twooo{
+    margin-left: -60%;
+    width: 50%;
+    height: 72vh;
+}
+
+.section12{
+    background-color: #363636;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding: 5% 7%;
+    /* background-color: #111; */
+    color: white;
+    
+    font-size: 1rem;
+   
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footer-column p, .footer-column div {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    word-spacing: 0.5em;
+    
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.payment-methods img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.secure-payment {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.products .product-item {
+    margin-bottom: 10px;
+   
+}
+
+.products .old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.products .new-price {
+    color: #0f0;
+}
+
+.copyright {
+    text-align: center;
+    /* padding: 10px;
+    background-color: #000; */
+    font-size: 12px;
+}
+.product-item img{
+    width: 50px;
+    height: 20%;
+}
+#hr{
+    width: 100%;
+    color: #363636; 
+}
+/* Mobile-first approach - Styles for small devices */
+@media (max-width: 767px) {
+    /* Navbar */
+   
+    /* Section 2 */
+   
+    .img {
+        width: 50%;
+        padding-top: 5%;
+    }
+
+    .button_slide {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    /* Section 3 */
+    .section3 {
+        flex-direction: column;
+       padding: 2% 9%;
+        justify-content: center;
+        display: block; /* Set as block to ensure it spans the full width */
+    }
+    .icon{
+        margin-left: 5px;
+    }
+    .para{
+        margin-left: 65px;
+    }
+
+    /* Section 4 */
+    .section4 {
+        flex-direction: column;
+        text-align: center;
+        display: block;  /* Ensure each section is block-level */
+    }
+
+    .section4a, .section4b {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Section 5 */
+    .section5b {  
+        display: block; /* Set as block to ensure proper alignment */
+    }
+
+   
+   
+
+    /* Section 6 */
+   
+
+    .but {
+        width: 50%;
+        padding: 10px 2%;
+    }
+
+    /* Section 7 */
+    .section7b{
+       
+        margin-top: -25%;
+        width: 100%;
+        height: 100vh;
+    }
+    .section7b>img{
+        grid-area: 1/1;
+        height: auto;
+         aspect-ratio: 0.5;
+        object-fit: cover;
+        animation: r var(--d) linear infinite;
+        height: 95%;
+        width: 100%;
+        /* padding-top: 8%; */
+    }
+    .section7b>:nth-child(2){
+        animation-delay: calc(1*var(--d)/-3)
+    }
+    .section7b>:nth-child(3){
+        animation-delay: calc(2*var(--d)/-3)
+    }
+    .section7b>:nth-child(4){
+        animation-delay: calc(3*var(--d)/-3)
+    }
+    
+    
+    
+    @keyframes r {
+        75%{
+            transform: translate(500%);
+        }
+        75.01%{
+            transform: translate(2%);
+        }
+    
+    }
+    .section7c{
+        display: block;
+        margin-top: 25%;
+        width: 100%;
+        height: 90vh;
+        margin-left: 2%;
+
+    }
+    /* Section 8 */
+    .section8a{
+        display: block;
+        margin-left: 10%;
+    }
+     .el1, .el2, .el3{
+        flex-basis: 33%;
+       
+    }
+    
+    .figure1{
+        position: relative;
+        width: 360px;
+        max-width: 100%;
+       
+       
+    }
+    .figure1 img{
+        display: flex;
+        height: 43vh;
+        padding-top: 8%;
+    }
+    .figure1 .image-hover1{
+        position: absolute;
+        object-fit: contain;
+        top: 0;
+        left: 0;
+        right: 0;
+        /* bottom: -10px; */
+        opacity: 0;
+        transition: opacity .8s;
+        height: 49vh;
+        width: 70%;
+         margin-top: -4.5%; 
+      
+      
+    }
+    .figure1:hover .image1-hover{
+         opacity: 2;
+         cursor: pointer;
+    }
+    .image-main1{
+        width: 70%;
+    } 
+    
+    
+    /* Section 9 */
+    .section9 {
+        
+        padding: 20% 100%;
+        height: auto;
+         /* Ensure section content appears as blocks */
+    }
+
+    /* Section 10 */
+    .section10 {
+        background-size: 150vh;
+        height: 100vh;
+        display: block; /* Ensure section behaves like a block */
+        margin-top: 50%;
+    }
+    .section10 h1{
+         font-size: 25px;
+    }
+    .sec10 email{
+        margin-top: 20px;
+
+    }
+.section11{
+    height:350vh ;
+}
+    /* Section 11 */
+    .on,.off{
+        display: block;
+    }
+    .onee>img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .oneee{
+        margin-left:0% ;
+    }
+    .twooo>img{
+        margin-left: 120%;
+        width: 200%;
+        margin-top: 15%;
+    }
+    /* Section 12 */
+    .section12{
+        background-color: #363636;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        display: block; /* Make footer section behave like a block */
+        height: 200vh;
+        background-color: #363636;
+    }
+
+    .footer-column {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+        display: block; /* Make each footer column appear as block */
+        background-color: #363636;
+    }
+
+    .footer-links {
+        text-align: left;
+    }
+
+    .product-item img {
+        width: 80px;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Navbar */
+    .navbar {
+        padding: 2% 40%;
+    }
+
+    .nav2 ul {
+        gap: 10%;
+    }
+
+    /* Section 2 */
+    .section2 {
+        padding: 5% 10%;
+    }
+
+    .section2a, .section2b {
+        flex-basis: 50%;
+        display: block;  /* Set these as block elements */
+    }
+
+    .img {
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .button_slide {
+        padding: 16px 40px;
+    }
+
+    /* Section 3 */
+    .section3 {
+        gap: 2%;
+        justify-content: center;
+        display: block;
+    }
+
+    /* Section 4 */
+    .section4 {
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        display: block; /* Ensure this is set to block */
+    }
+
+    .section4a, .section4b {
+        flex-basis: 45%;
+    }
+
+    /* Section 5 */
+    .section5b {
+        flex-direction: row;
+        justify-content: space-between;
+        display: block;
+    }
+
+    .el1, .el2, .el3 {
+        flex-basis: 30%;
+        display: block;  /* Set these as block-level elements */
+    }
+
+    /* Section 6 */
+    .but {
+        padding: 18px 45px;
+    }
+
+    /* Section 7 */
+    .section7b > img {
+        height: 50%;
+        display: block;
+    }
+
+    /* Section 8 */
+  .section8a{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .el1, .el2, .el3{
+    flex-basis: 33%;
+   
+}
+
+.figure1{
+    position: relative;
+    width: 360px;
+    max-width: 100%;
+   
+   
+}
+.figure1 img{
+    display: flex;
+    height: 43vh;
+    padding-top: 8%;
+}
+.figure1 .image-hover1{
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: -10px; */
+    opacity: 0;
+    transition: opacity .8s;
+    height: 49vh;
+    width: 70%;
+     margin-top: -4.5%; 
+  
+  
+}
+.figure1:hover .image1-hover{
+     opacity: 2;
+     cursor: pointer;
+}
+.image-main1{
+    width: 70%;
+} 
+
+
+    .section10{
+        margin-top: 30%;
+        background-size: contain;
+    }
+
+    /* Section 12 */
+    .footer-column {
+        flex: 1 1 45%;
+        display: block; /* Ensure this appears as block */
+    }
+
+    .footer-links {
+        text-align: left;
+    }
+
+    .product-item img {
+        width: 120px;
+        display: block;
+    }
+}
