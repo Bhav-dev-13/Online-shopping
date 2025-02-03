@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="shop.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="path/to/jquery.twentytwenty.js"></script>
-<link rel="stylesheet" href="path/to/twentytwenty.css">
+    <script src="path/to/jquery.twentytwenty.js"></script>
+    <link rel="stylesheet" href="path/to/twentytwenty.css">
+
+
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
     <div class="navbar">
@@ -59,8 +60,11 @@
     </div>
     </div>
 </div>
-    <div class="section2" >
-        <div class="section2a" data-aos="flip-up">
+
+    <div class="section2" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+        <div class="section2a">
            <h1> New, Amazing 
             <br>
             Stuff Is Here </h1>
@@ -80,8 +84,10 @@
 
         </div>
     </div>
-    <div class="section3" data-aos="zoom-in">
-        <div class="icon" data-aos="fade-up">
+    <div class="section3" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+        <div class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6" width="50" height="50">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
               </svg>
@@ -91,30 +97,32 @@
         <p>Lorem ipsum dolor sit amet, consectetur</p>
         <p>elit. Nulla sem libero, dignissim sit amet consequa</p>
     </div>
-    <div class="icon" data-aos="fade-up">
+    <div class="icon" >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
           </svg>
           
     </div>
-<div class="para" data-aos="fade-up">
+<div class="para" >
     <h3 style="color: #363636; font-weight: lighter;">FREE 20 DAY RETURNS</h3>
     <p>Lorem ipsum dolor sit amet, consectetur</p>
     <p>elit. Nulla sem libero, dignissim sit amet consequa</p>
 </div>
-<div class="icon" data-aos="fade-up">
+<div class="icon" >
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
       </svg>      
 </div>
-<div class="para" data-aos="fade-up">
+<div class="para">
 <h3 style="color: #363636; font-weight: lighter;">SECURE CHECKOUT</h3>
 <p>Lorem ipsum dolor sit amet, consectetur</p>
 <p>elit. Nulla sem libero, dignissim sit amet consequa</p>
 </div>
     </div>
-<div class="section4">
-        <div class="section4a" data-aos="zoom-out-left">
+<div class="section4" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500">
+        <div class="section4a">
             <h1>This Season</h1>
             <br>
             <br>
@@ -125,9 +133,7 @@
            <br>
            <button class="button_slide slide_right">Shop Women</button>
         </div>
-        <div class="section4b" id="image-comparison" style="background-color: white;"  data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" >
+        <div class="section4b" id="image-comparison" style="background-color: white;">
             <div class="image-container">
                 <!-- Example before and after images -->
                 <div class="before-image" >
@@ -181,16 +187,17 @@ document.addEventListener("mousemove", (e) => {
     <br>
     <br>
 
-    <div class="section5" data-aos="fade-up"
-    data-aos-duration="3000">
+    <div class="section5" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="section5a" style="text-align: center;">
             <h1 style="font-family: 'Cormorant Garamond'; font-weight: 400;">New arrivals</h1>
             <br>
             <p style=" color: #696868; font-weight: lighter;">DENIM DREAMS</p>
         </div>
-        <div class="section5b" data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        <div class="section5b" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="el1" >
                 <div class="figure">
            <img class="image-main" src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/5391345406_2_1_1-1-768x981.jpg" alt="image1" >
@@ -244,7 +251,9 @@ document.addEventListener("mousemove", (e) => {
     <br>
     <br>
     <br>
-    <div class="section6">
+    <div class="section6" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="sec6">
         <h1 style="font-family: 'Cormorant Garamond'; font-weight: 300;">Khaki Lace Up Sandals</h1>
         <br>
@@ -291,67 +300,45 @@ document.addEventListener("mousemove", (e) => {
     <br>
     <br>
     <script>
-        // Set the target date for the actual countdown
-        const TARGET_DATE = new Date("2025-01-31T23:59:59").getTime();
-        const actualTimeLeft = TARGET_DATE - new Date().getTime(); // Time left in milliseconds
-    
-        const simulationDuration = 60 * 1000; // 1 minute for simulation (60 seconds)
-        let elapsedSimulatedTime = 0; // Track the simulated time elapsed
-    
-        let realCountdownStarted = false; // Flag to switch from simulation to real countdown
-    
-        function updateCountdown() {
-            let distance;
-    
-            if (!realCountdownStarted) {
-                // Simulating the countdown
-                elapsedSimulatedTime += 100; // Increment simulated time
-                distance = (elapsedSimulatedTime / simulationDuration) * actualTimeLeft;
-    
-                // Transition to real countdown after simulation ends
-                if (elapsedSimulatedTime >= simulationDuration) {
-                    realCountdownStarted = true;
-                }
-            } else {
-                // Real countdown
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("Countdown Timer Loaded!");
+
+            // 🕒 Set the target sale end date
+            const TARGET_DATE = new Date("2025-02-28T23:59:59").getTime();
+
+            function updateCountdown() {
                 const now = new Date().getTime();
-                distance = TARGET_DATE - now;
+                const distance = TARGET_DATE - now;
+
+                if (distance >= 0) {
+                    const weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                    const days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById("weeks").textContent = weeks.toString().padStart(2, '0');
+                    document.getElementById("days").textContent = days.toString().padStart(2, '0');
+                    document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+                    document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+                    document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+                } else {
+                    document.getElementById("weeks").textContent = "00";
+                    document.getElementById("days").textContent = "00";
+                    document.getElementById("hours").textContent = "00";
+                    document.getElementById("minutes").textContent = "00";
+                    document.getElementById("seconds").textContent = "00";
+                }
             }
-    
-            if (distance >= 0) {
-                const weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                const days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-                // Update the HTML elements
-                document.getElementById("weeks").textContent = weeks.toString().padStart(2, '0');
-                document.getElementById("days").textContent = days.toString().padStart(2, '0');
-                document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
-                document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
-                document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
-            } else {
-                // Countdown is over, display zeros
-                document.getElementById("weeks").textContent = "00";
-                document.getElementById("days").textContent = "00";
-                document.getElementById("hours").textContent = "00";
-                document.getElementById("minutes").textContent = "00";
-                document.getElementById("seconds").textContent = "00";
-            }
-        }
-    
-        // Update the countdown every 100ms during simulation and every second afterward
-        const interval = setInterval(updateCountdown, 100);
-    
-        // Adjust interval to 1 second after simulation ends
-        setTimeout(() => {
-            clearInterval(interval);
-            setInterval(updateCountdown, 1000);
-        }, simulationDuration);
+
+            setInterval(updateCountdown, 1000); // Update every second
+            updateCountdown(); // Run once immediately
+        });
     </script>
-    <div class="section7" data-aos="fade-up"
-    data-aos-duration="3000">
+
+    <div class="section7" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="section7a" style="text-align: center;">
             <h2 style="font-family: 'Cormorant Garamond'; font-weight: lighter; color: #363636; font-size: 50px;">New arrivals</h2>
            <br>
@@ -382,12 +369,17 @@ document.addEventListener("mousemove", (e) => {
         </div>
     </div>
     </div>
-   
+   <div class="lol" data-aos="fade-down"
+   data-aos-easing="linear"
+   data-aos-duration="1500">
     <span style=" color: #332e2e; font-weight: 300; letter-spacing: 0.25em; word-spacing: 0.5em; font-family: Montserrat; font-size: 24px; padding-left: 3%;">TRENDING NOW</span>
+</div>
     <br>
     <br>
-    <div class="section8" >
-        <div class="section8a" data-aos="flip-right">
+    <div class="section8" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+        <div class="section8a">
     <div class="dot1">
         <div class="figure1">
    <img class="image-main1" src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/5593559500_2_5_1-768x981.jpg" alt="image1" >
@@ -595,15 +587,12 @@ document.addEventListener("mousemove", (e) => {
         <p style="font-family: Montserrat; color: #696868; font-weight: 300 !important;">READ OUR STORIES</p>
     </div>
     <div class="sec11b" >
-        <div class="on" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" >
+        <div class="on" >
         <div class="onee"  data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
         data-aos-offset="0"  >
             <img src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/Untitled-1_0008_tyler-nix-604226-unsplash.jpg" alt="image">
-
         </div>
         <div class="twoo">
             <span style="font-family: 'Cormorant Garamond'; color: #696868;">by shufflehound   August 23, 2018</span>
@@ -623,9 +612,7 @@ document.addEventListener("mousemove", (e) => {
     </div>
     <br>
     <br>
-    <div class="off"  data-aos="fade-left"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine">
+    <div class="off">
         <div class="oneee"   >
             <span style="font-family: 'Cormorant Garamond'; color: #696868;">by shufflehound   August 23, 2018</span>
             <br>
@@ -651,7 +638,7 @@ document.addEventListener("mousemove", (e) => {
     </div>
     
     </div>
-
+</div>
    
    
     <div class="section12">
@@ -734,5 +721,7 @@ document.addEventListener("mousemove", (e) => {
             once:true,
        } );
       </script>
+     
+
 </body>
 </html>

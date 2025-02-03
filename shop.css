@@ -16,7 +16,7 @@ html,body{
 .navbar{
     background-color: white;
     color:black;
-    padding: 2% 41%;
+    padding: 1% 41%;
     justify-content: space-between;
     align-items: center;
     height: 20vh;
@@ -28,7 +28,7 @@ html,body{
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 
 
@@ -292,15 +292,15 @@ button{
 }
 .section5b{
     display: flex;
-    justify-content: center;
+    justify-content: justify;
     text-align: left;
-    padding: 0% 3%;
+    padding: 0% .5%;
   
 
    
 }
 .el1, .el2, .el3{
-    flex-basis: 39%;
+    flex-basis: 30%;
    
 }
 .el1>img,.el2>img,.el3>img{
@@ -467,10 +467,10 @@ hr{
 .section8a{
     display: grid;
     justify-content: center;
-    text-align: left;
+    text-align: justify;
    padding-left: 3%; 
     grid-template-columns: repeat(5,260px);
-    gap: -30%;
+     gap: -30%;
     padding-top: 0;
 }
 
@@ -750,12 +750,16 @@ placeholder{
     color: #363636; 
 }
 /* Mobile-first approach - Styles for small devices */
-@media (max-width: 767px) {
+@media screen and (width<576px) {
     /* Navbar */
-   
+     .navbar {
+        padding: 2% 18%;
+        height: auto;
+        text-align: left;
+    }
     /* Section 2 */
    
-    .img {
+     .img {
         width: 50%;
         padding-top: 5%;
     }
@@ -764,6 +768,11 @@ placeholder{
         padding: 12px 30px;
         font-size: 14px;
     }
+     .sec2b1>img{
+        width: 100%;
+        height: 70vh;
+        animation-play-state: paused;
+    } 
 
     /* Section 3 */
     .section3 {
